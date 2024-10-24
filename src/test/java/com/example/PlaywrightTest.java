@@ -1,7 +1,6 @@
 package com.example;
 
 import com.microsoft.playwright.*;
-import org.junit.Test;
 import org.junit.jupiter.api.*;
 
 public class PlaywrightTest {

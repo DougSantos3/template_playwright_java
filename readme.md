@@ -1,8 +1,7 @@
-###  Criar um projeto
-`mvn archetype:generate -DgroupId=com.example -DartifactId=playwright-java -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
-
-### Compila e executa o projeto
-`mvn compile exec:java -Dexec.mainClass=com.example.PlaywrightTest`
+### Estou usando distribução: 
+`OpenJDK Runtime Environment Zulu17.54+21-CA (build 17.0.13+11-LTS)`
 
 ### Rodar os testes locais
 `mvn test`
+
+
