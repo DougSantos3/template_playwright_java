@@ -17,8 +17,8 @@ public class PlaywrightTest {
 
     @Test
     public void openGoogleHomePage() {
-        page.navigate("https://www.google.com");
-        Assertions.assertTrue(page.title().contains("Google"));
+        page.navigate("https://api.trello.com");
+        Assertions.assertTrue(page.title().contains("Trello"));
     }
 
     @AfterEach
