@@ -1,9 +1,9 @@
-package com.example.page_object;
+package com.example.pages;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 
-public class TrelloPage {
+public class BoardsPage {
 
     private Page page;
     private Locator field1;
@@ -11,7 +11,7 @@ public class TrelloPage {
     private Locator button;
 
     // Construtor para inicializar a página e os elementos
-    public TrelloPage(Page page) {
+    public BoardsPage(Page page) {
         this.page = page;
         this.field1 = page.locator("");
         this.field2 = page.locator("");
