@@ -1,9 +1,9 @@
-package com.example;
+package tests;
 
 import com.microsoft.playwright.*;
 import org.junit.jupiter.api.*;
 
-public class PlaywrightTest {
+public class AccessKanbanTest {
     Playwright playwright;
     Browser browser;
     Page page;
