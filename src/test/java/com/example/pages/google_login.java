@@ -1,15 +1,16 @@
 package com.example.pages;
+
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 
-public class LoginPage {
+public class google_login {
     private Page page;
     private Locator usernameField;
     private Locator passwordField;
     private Locator loginButton;
 
     // Construtor para inicializar a página e os elementos
-    public LoginPage(Page page) {
+    public Login(Page page) {
         this.page = page;
         this.usernameField = page.locator("#username"); // Usando seletor CSS
         this.passwordField = page.locator("#password");

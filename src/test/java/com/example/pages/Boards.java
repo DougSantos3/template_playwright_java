@@ -1,26 +1,28 @@
 package com.example.pages;
+
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 
-public class KanbanPage {
+public class Boards {
+
     private Page page;
-    private Locator param1;
-    private Locator param2;
-    private Locator param3;
+    private Locator field1;
+    private Locator field2;
+    private Locator button;
 
     // Construtor para inicializar a página e os elementos
-    public KanbanPage(Page page) {
+    public Boards(Page page) {
         this.page = page;
-        this.param1 = page.locator("");
-        this.param2 = page.locator("");
-        this.param3 = page.locator("");
+        this.field1 = page.locator("");
+        this.field2 = page.locator("");
+        this.button = page.locator("");
     }
 
     // Método para realizar o login
-    public void login(String username, String password) {
-        param1.fill(username);
-        param2.fill(password);
-        param3.click();
+    public void login(String variable1, String variable2) {
+        field1.fill(variable1);
+        field2.fill(variable2);
+        button.click();
     }
 
     // Método para verificar se o login falhou
@@ -28,4 +30,5 @@ public class KanbanPage {
         Locator errorMessage = page.locator(".error-message");
         return errorMessage.isVisible();
     }
+    
 }
