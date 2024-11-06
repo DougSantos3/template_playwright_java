@@ -5,3 +5,10 @@
 
 ### Rodar os testes locais
 `mvn test`
+
+
+### Todo
+### Salvar os prins do teste ou bug em alguma pasta
+### Salva video do testes em alguma pasta
+
+Obs. Talvez já faça ou seja alguma lib para baixar
