@@ -17,14 +17,14 @@ public class Kanban {
     }
 
     // Método para realizar o login
-    public void login(String username, String password) {
-        param1.fill(username);
-        param2.fill(password);
+    public void metodA(String variable1, String variable2) {
+        param1.fill(variable1);
+        param2.fill(variable2);
         param3.click();
     }
 
     // Método para verificar se o login falhou
-    public boolean isLoginErrorVisible() {
+    public boolean metodB() {
         Locator errorMessage = page.locator(".error-message");
         return errorMessage.isVisible();
     }

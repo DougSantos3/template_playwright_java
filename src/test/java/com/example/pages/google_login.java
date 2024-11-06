@@ -10,9 +10,9 @@ public class google_login {
     private Locator loginButton;
 
     // Construtor para inicializar a página e os elementos
-    public Login(Page page) {
+    public google_login(Page page) {
         this.page = page;
-        this.usernameField = page.locator("#username"); // Usando seletor CSS
+        this.usernameField = page.locator("#username");
         this.passwordField = page.locator("#password");
         this.loginButton = page.locator("#login-button");
     }
