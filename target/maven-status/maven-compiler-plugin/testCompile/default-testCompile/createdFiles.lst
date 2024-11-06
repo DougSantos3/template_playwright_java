@@ -1,0 +1,7 @@
+tests/AccessKanbanTest.class
+com/example/pages/Home.class
+com/example/pages/google_login.class
+com/example/pages/Auth.class
+com/example/pages/Kanban.class
+com/example/pages/Boards.class
+AppTest.class
